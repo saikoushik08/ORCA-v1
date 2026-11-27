@@ -1,0 +1,6 @@
+# Only for the scripts in experiments/ (mask generation etc.). Not needed by the backend.
+rembg
+opencv-python
+matplotlib
+scikit-image
+scikit-learn

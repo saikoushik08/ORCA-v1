@@ -1,0 +1,64 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+venv_method2/
+venv_mask/
+venv_pointr/
+
+# External repos
+PoinTr/
+
+# Environment files
+.env
+
+# Databases
+*.db
+
+# Uploads & Outputs
+uploads/
+outputs/
+workspace/
+
+# Test reconstruction data
+colmap_test/
+polycam_test/
+Ammonite/
+
+# Reconstruction / experiment data
+
+
+# Nerfstudio artifacts
+nerfstudio_outputs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+.venv/
+__pycache__/
+*.pyc
+.vscode/
+.idea/

@@ -1,0 +1,21 @@
+# ORCA backend runtime dependencies.
+# Ranges are tested on Python 3.12/3.13 (see requirements.lock.txt for the exact versions
+# used in testing). If an install fails on your Python version, tell me the error and
+# the output of `python --version`; after one successful install run
+# `pip freeze > requirements.lock.txt` on your machine to lock your own versions.
+fastapi>=0.110,<1
+uvicorn>=0.29,<1
+python-multipart>=0.0.9
+python-dotenv>=1.0,<2
+pydantic>=2.6,<3
+pydantic-settings>=2.2,<3
+supabase>=2.4,<3          # not exercised by the automated tests (they use a fake client)
+numpy>=1.26,<3
+scipy>=1.11,<2
+pillow>=10.2
+trimesh>=4.4,<6
+open3d>=0.18,<0.21
+fast-simplification>=0.1.7   # needed by trimesh quadric decimation
+networkx>=3.2                # needed by trimesh mesh splitting / components
+opencv-python>=4.8
+imageio-ffmpeg>=0.4

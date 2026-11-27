@@ -1,0 +1,18 @@
+# Exact versions the Batch 1 tests passed with (Python 3.13). supabase not included: tests use a fake client.
+fast_simplification==0.2.0
+fastapi==0.165.0
+httpx==0.28.1
+networkx==3.7
+numpy==2.5.3
+open3d==0.20.0
+pillow==12.3.0
+pydantic==2.13.5
+pydantic-settings==2.16.3
+pydantic_core==2.46.5
+pytest==9.1.1
+python-dotenv==1.2.3
+python-multipart==0.0.32
+scipy==1.18.1
+starlette==1.7.0
+trimesh==5.2.2
+uvicorn==0.54.0
